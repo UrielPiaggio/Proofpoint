@@ -33,7 +33,7 @@ def air_data_missing(data):
     set = "Air Date"
     data[set] = pd.to_datetime(data[set], errors= "coerce").dt.date
     data[set] = data[set].fillna("Unknown")
-    #data.loc[set].astype(str).str.strip() == "","Air DAte"
+    data[set] = data[set].astype("str")
     
     return data
 
