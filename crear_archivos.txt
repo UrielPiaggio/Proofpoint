@@ -1,0 +1,43 @@
+hace csv de 1000 registros, con las siguiente columnas 
+
+  Series Name – name of the series 
+• Season Number – season number 
+• Episode Number – episode number 
+• Episode Title – episode title  
+• Air Date – date when the episode aired
+
+un porcentaje de estos registros tiene que tener los siguientes errores en sus columnas
+
+Series name puede estar vacio o faltar. Ej.: “one”, “3.5”, “--2”
+Season Number puede faltar, estar vacio, ser negativo o no un numero. Ej.: “one”, “3.5”, “--2”
+Episode Number puede faltar, estar vacio, ser negativo o no es un numero
+Episode Title puede faltar, estar vacio
+Air Date puede faltar, estar vacia o ser invalida. Ej.: “not a date”, “2022-40-99”, “0000-00-00”
+
+también tiene que haber registros algunos registros  duplicados.
+
+Varias veces
+
+Con títulos diferentes
+
+Con fechas de emisión distintas
+
+Con espacios o formatos diferentes
+
+O con numeración de temporada/episodio inconsistente
+
+hace varios de estos registros algunos cumpliendo mas de una condición 
+
+=== ejemplo=== 
+
+The Office	2	5	Halloween	2005-10-18
+the office	02	05	halloween	Unknown
+THE OFFICE	2	5	Untitled Episode	2005-10-18
+
+===Fin ejemplo===
+
+
+
+
+
+
